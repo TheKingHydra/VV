@@ -14,6 +14,10 @@ Amazon, peut-être, simule le shutdown d'une de ses régions. On peut supposer q
 
 # Exercice 4. 
 
+The formal specification of WebAssembly allows it to be fast, safe, compact and portable.
+Despite that, it is still very important to test WebAssembly implementations
+since good specifications aren't necessarily followed by good usages.
+
 # Exercice 5.  
 
 ## Answers
