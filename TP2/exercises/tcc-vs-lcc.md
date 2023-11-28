@@ -9,7 +9,7 @@ between methods within the class, and no indirect connections.
 
 An example of such a class could be :
 
-````
+````Java
 public class example{
     public void setA(int a) {
         this.a = a;
