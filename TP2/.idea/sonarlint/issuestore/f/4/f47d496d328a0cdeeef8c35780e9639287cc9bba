@@ -1,0 +1,22 @@
+
+‰
+java:S1319"gThe type of "attributes" should be an interface such as "Set" rather than the implementation "HashSet".(¢†èÿÿÿÿÿ8Ä©ÊÄ1
+
+java:S1319"dThe type of "getters" should be an interface such as "Set" rather than the implementation "HashSet".(«½’Ã8‚Ä©ÊÄ1
+x
+java:S1104"VMake attributes a static final constant or non-public and provide accessors if needed.(¢†èÿÿÿÿÿ8‚Ä©ÊÄ1
+p
+java:S1104"SMake getters a static final constant or non-public and provide accessors if needed.(«½’Ã8‚Ä©ÊÄ1
+r
+java:S1104"UMake className a static final constant or non-public and provide accessors if needed.(¾ü±8‚Ä©ÊÄ1
+G	java:S106'"+Replace this use of System.out by a logger.(şúåÆ8—Ä©ÊÄ1
+L	java:S106("+Replace this use of System.out by a logger.(¤İ×©şÿÿÿÿ8—Ä©ÊÄ1
+L	java:S1068"+Replace this use of System.out by a logger.(ß Àìüÿÿÿÿ8˜Ä©ÊÄ1
+G	java:S106?"+Replace this use of System.out by a logger.(œÇÚİ8˜Ä©ÊÄ1
+G	java:S106J"+Replace this use of System.out by a logger.(şúåÆ8™Ä©ÊÄ1
+L	java:S106N"+Replace this use of System.out by a logger.(µ¸„Ëıÿÿÿÿ8™Ä©ÊÄ1
+L	java:S106Q"+Replace this use of System.out by a logger.(…ÚŞãÿÿÿÿÿ8šÄ©ÊÄ1
+L	java:S106U"+Replace this use of System.out by a logger.(âşµ„ùÿÿÿÿ8šÄ©ÊÄ1
+L	java:S106Y"+Replace this use of System.out by a logger.(Ôâ¹ıÿÿÿÿ8šÄ©ÊÄ1
+P
+java:S1128".Remove this unused import 'java.util.HashMap'.(™˜”€ùÿÿÿÿ8Úô­ÊÄ1
