@@ -23,3 +23,28 @@ Use your rule with different projects and describe you findings below. See the [
 
 ## Answer
 
+Here is my XML rule :
+
+```xml
+<rule name="No3If"
+      language="java"
+      message="There is at least 3 nested Ifs !"
+      class="net.sourceforge.pmd.lang.rule.XPathRule">
+   <description>
+
+   </description>
+   <priority>3</priority>
+   <properties>
+      <property name="version" value="3.1"/>
+      <property name="xpath">
+         <value>
+            <![CDATA[
+            //IfStatement[.//IfStatement[.//IfStatement]]
+            ]]>
+         </value>
+      </property>
+   </properties>
+</rule>
+```
+
+This rule checks if there are three nested If statements and returns an error if so.
