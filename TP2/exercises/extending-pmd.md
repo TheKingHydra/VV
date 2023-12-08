@@ -47,4 +47,13 @@ Here is my XML rule :
 </rule>
 ```
 
-This rule checks if there are three nested If statements and returns an error if so.
+This rule checks if there are three nested If statements.
+This is supposedly because if you have more than three nested "if", you should instead use a switch case.
+
+I used the rule on the java collections with the check command from pmd.
+The result I got was a bit troubling at first, because it pinged errors where there are many "if{} else if{}".
+But after I thought about it, it is indeed a form of nested if statements. 
+Because the "if" right after the "else" is considered as an "if" inside another "if".
+
+The rule also pings the right amount of "if" that don't respect the nested criteria.
+It doesn't ping the last two "if".
