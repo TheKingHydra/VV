@@ -1,17 +1,129 @@
 package fr.istic.vv;
 
 class Date implements Comparable<Date> {
+    private int day;
+    private int month;
+    private int year;
+    public Date(int day, int month, int year) {
+        if (!isValidDate(day, month, year)) throw new IllegalArgumentException("Invalid date");
+        this.day = day;
+        this.month = month;
+        this.year = year;
+    }
 
-    public Date(int day, int month, int year) { }
+    public static boolean isValidDate(int day, int month, int year) {
 
-    public static boolean isValidDate(int day, int month, int year) { return false; }
+        if ((month < 1 || month > 12)) return false;
 
-    public static boolean isLeapYear(int year) { return false; }
+        if(day < 1) return false;
 
-    public Date nextDate() { return null; }
+        if(month == 2){
+            if(isLeapYear(year)) return day <= 29;
+            return day<=28;
+        }
 
-    public Date previousDate() { return null; }
+        if(month == 4 || month == 6 || month == 9 || month == 11){
+            return day <= 30;
 
-    public int compareTo(Date other) { return 0; }
+        }else if(month == 1 || month == 3 || month == 5 || month == 7 || month == 8 || month == 12){
+            return day <= 31;
+        }
 
+        return true;
+
+    }
+
+    public static boolean isLeapYear(int year) {
+
+        if(year % 4 == 0) {
+            if(year % 100 == 0) {
+                return ((year % 400) == 0);
+            }
+            return true;
+        }
+        return false;
+    }
+
+    public Date nextDate() {
+
+        int day = this.day;
+        int month = this.month;
+        int year = this.year;
+
+        if((day == 31) || (day == 30 && (month == 4 || month == 6 || month == 9 || month == 11)) || (day == 28 && month == 2 && !isLeapYear(year)) || (day == 29 && month == 2 && isLeapYear(year))) {
+            day = 1;
+            month++;
+            if (month == 13) {
+                month = 1;
+                year++;
+            }
+        } else day++;
+
+        return new Date(day, month, year);
+
+
+    }
+
+    public Date previousDate() {
+        int day = this.day;
+        int month = this.month;
+        int year = this.year;
+
+        if(day == 1 && month == 3) {
+            if(isLeapYear(year)) day = 29;
+            else day = 28;
+            month--;
+        } else if(day == 1){
+            if(month == 5 || month == 7 || month == 10 || month == 12){
+                day = 30;
+            } else {
+                day = 31;
+            }
+            month--;
+        } else day--;
+
+        if(month ==0){
+            year--;
+            month = 12;
+        }
+
+        return new Date(day, month, year);
+    }
+
+    public int compareTo(Date other) {
+        if(other == null) throw new NullPointerException();
+
+        if(this.year < other.year) return -1;
+        if(this.year > other.year) return 1;
+
+        if(this.month < other.month) return -1;
+        if(this.month > other.month) return 1;
+
+        return Integer.compare(this.day, other.day);
+
+    }
+
+    public int getDay() {
+        return day;
+    }
+
+    public void setDay(int day) {
+        this.day = day;
+    }
+
+    public int getMonth() {
+        return month;
+    }
+
+    public void setMonth(int month) {
+        this.month = month;
+    }
+
+    public int getYear() {
+        return year;
+    }
+
+    public void setYear(int year) {
+        this.year = year;
+    }
 }
