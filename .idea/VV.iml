@@ -7,6 +7,8 @@
       <sourceFolder url="file://$MODULE_DIR$/TP3/code/tp3-balanced-strings/src/test/java" isTestSource="true" />
       <sourceFolder url="file://$MODULE_DIR$/TP3/code/tp3-date/src/main/java" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/TP3/code/tp3-date/src/test/java" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/TP3/code/tp3-ssl/src/main/java" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/TP3/code/tp3-ssl/src/test/java" isTestSource="false" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
