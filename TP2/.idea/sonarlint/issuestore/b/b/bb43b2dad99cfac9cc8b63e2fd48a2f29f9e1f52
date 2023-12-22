@@ -1,19 +1,4 @@
 
-@	java:S106"+Replace this use of System.err by a logger.(Ã Áå
-E	java:S106"+Replace this use of System.err by a logger.(€ò§ïşÿÿÿÿ
-\
-java:S1128":Remove this unused import 'com.github.javaparser.Problem'.(ËÕÆ§øÿÿÿÿ8¢ÕÊÄ1
-h
-java:S1128"FRemove this unused import 'com.github.javaparser.ast.CompilationUnit'.(¤±Ñıÿÿÿÿÿ8¢ÕÊÄ1
-y
-java:S1128"WRemove this unused import 'com.github.javaparser.ast.body.ClassOrInterfaceDeclaration'.(Î•üùÿÿÿÿ8¢ÕÊÄ1
-j
-java:S1128"MRemove this unused import 'com.github.javaparser.ast.body.MethodDeclaration'.(İÁà„8¢ÕÊÄ1
-l
-java:S1128"JRemove this unused import 'com.github.javaparser.ast.visitor.VoidVisitor'.(ÇŞáÿÿÿÿÿ8¢ÕÊÄ1
-s
-java:S1128"QRemove this unused import 'com.github.javaparser.ast.visitor.VoidVisitorAdapter'.(é”¨Êúÿÿÿÿ8¢ÕÊÄ1
-L
-java:S1128"/Remove this unused import 'java.nio.file.Path'.(×²êÂ8¢ÕÊÄ1
-M
-java:S1128"0Remove this unused import 'java.nio.file.Paths'.(áè°¯8¢ÕÊÄ1
+G	java:S106"+Replace this use of System.err by a logger.(Ã Áå8áÅÍŒÉ1
+L	java:S106"+Replace this use of System.err by a logger.(€ò§ïşÿÿÿÿ8ãÅÍŒÉ1
+L	java:S106"+Replace this use of System.out by a logger.(ü’¶€øÿÿÿÿ8ãÅÍŒÉ1

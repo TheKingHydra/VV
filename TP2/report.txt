@@ -1,0 +1,22 @@
+PACKAGE1 : Person.java
+  Person
+    L'attribut age n'a pas de getter
+
+  Metier
+    L'attribut nom n'a pas de getter
+
+  Metier4
+    L'attribut nom n'a pas de getter
+
+  Metier3
+    L'attribut nom n'a pas de getter
+
+  Metier2
+    L'attribut nom n'a pas de getter
+
+  Truc
+    L'attribut nom n'a pas de getter
+
+PACKAGE2 : Person2.java
+  Person2
+    L'attribut age n'a pas de getter
