@@ -16,3 +16,9 @@ K
 code/Exercise4/Person2.java,0\d\0dec2553a43b1b84815d28b4874c85f7379f2a4a
 H
 code/Exercise4/README.md,e\1\e1c331d9ea5b64ca5509a81ecf5a40b0a614dbad
+O
+code/javaparser-starter/pom.xml,0\7\073f4763c128f247776acef12bea2ccfc337722d
+^
+.code/javaparser-starter/javaparser-starter.iml,a\8\a8a04eb9d2f63be9282bc20442f10184ead9e9f5
+~
+Ncode/javaparser-starter/src/main/java/fr/istic/vv/PublicElementsPrinterCC.java,5\8\5883789fcc97acf82f7b56355698824504609dab
