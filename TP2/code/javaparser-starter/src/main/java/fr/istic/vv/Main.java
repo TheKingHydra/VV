@@ -31,16 +31,17 @@ public class Main {
         System.out.println("File : "+file.getName());
 
         SourceRoot root = new SourceRoot(file.toPath());
-        PublicElementsPrinter printer = new PublicElementsPrinter();
+        PublicElementsPrinterCC printer = new PublicElementsPrinterCC();
         root.parse("", (localPath, absolutePath, result) -> {
             printer.setFileName(localPath.toString());
             result.ifSuccessful(unit -> unit.accept(printer, null));
             return SourceRoot.Callback.Result.DONT_SAVE;
         });
 
-        FileWriter fw = new FileWriter("report.txt");
-        fw.write(printer.getFieldsWithoutGetter());
+        FileWriter fw = new FileWriter("reportCC.txt");
+        fw.write(printer.getReportCC());
         fw.close();
+
     }
 
 

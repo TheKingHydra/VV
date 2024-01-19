@@ -22,3 +22,5 @@ O
 .code/javaparser-starter/javaparser-starter.iml,a\8\a8a04eb9d2f63be9282bc20442f10184ead9e9f5
 ~
 Ncode/javaparser-starter/src/main/java/fr/istic/vv/PublicElementsPrinterCC.java,5\8\5883789fcc97acf82f7b56355698824504609dab
+<
+reportCC.txt,5\d\5dcf7f4844aab0419436e8471403d45fdab41589

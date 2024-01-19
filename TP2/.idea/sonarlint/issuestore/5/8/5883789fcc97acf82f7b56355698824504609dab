@@ -1,16 +1,24 @@
 
-8
-java:S1643Ÿ"Use a StringBuilder instead.(ò¶ÉÀúÿÿÿÿ
-8
-java:S1643¡"Use a StringBuilder instead.(ì‚›ùøÿÿÿÿ
-3
-java:S1643¥"Use a StringBuilder instead.(ğ É³
-q
-java:S1104"VMake indexClass a static final constant or non-public and provide accessors if needed.(ˆª²şÿÿÿÿ
-s
-java:S1104"XMake indexPackage a static final constant or non-public and provide accessors if needed.(í²ñ¥ùÿÿÿÿ
-E	java:S1060"+Replace this use of System.out by a logger.(°¶®´ùÿÿÿÿ
-@	java:S106~"+Replace this use of System.out by a logger.(œÇÚİ
-A	java:S106‰"+Replace this use of System.out by a logger.(Òñ¼ë
-R	java:S125"<This block of commented-out lines of code should be removed.(†‚‘„
-F	java:S106•"+Replace this use of System.out by a logger.(ßåµæùÿÿÿÿ
+
+java:S1319e"mThe return type of this method should be an interface such as "Set" rather than the implementation "HashSet".(ŞÚ¡•ùÿÿÿÿ8ÆÇôÉ1
+?
+java:S1643´"Use a StringBuilder instead.(óú’íÿÿÿÿÿ8ÆÇôÉ1
+?
+java:S1643¶"Use a StringBuilder instead.(ì‚›ùøÿÿÿÿ8ÆÇôÉ1
+:
+java:S1643¸"Use a StringBuilder instead.(»ÉÛÂ8ÇÇôÉ1
+x
+java:S1104"VMake indexClass a static final constant or non-public and provide accessors if needed.(ˆª²şÿÿÿÿ8ÇÇôÉ1
+z
+java:S1104"XMake indexPackage a static final constant or non-public and provide accessors if needed.(í²ñ¥ùÿÿÿÿ8ÇÇôÉ1
+Z
+java:S4973"<Strings and Boxed types should be compared using "equals()".(ÌÒƒı8ÇÇôÉ1
+Z
+java:S4973"<Strings and Boxed types should be compared using "equals()".(ÌÒƒı8ÈÇôÉ1
+Z
+java:S4973"<Strings and Boxed types should be compared using "equals()".(ÌÒƒı8ÈÇôÉ1
+Z
+java:S4973"<Strings and Boxed types should be compared using "equals()".(ÌÒƒı8ÈÇôÉ1
+H	java:S106"+Replace this use of System.out by a logger.(œÇÚİ8üÇôÉ1
+H	java:S106­"+Replace this use of System.out by a logger.(¬ŸÙî8şÇôÉ1
+M	java:S106²"+Replace this use of System.out by a logger.(Óµ»¹şÿÿÿÿ8ÿÇôÉ1

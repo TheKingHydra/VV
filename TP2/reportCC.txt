@@ -1,0 +1,3 @@
+PACKAGE1 : Person.java
+  PersongetName : isAdult :   MetiergetDuree :   Metier4getDuree :   Metier3getDuree :   Metier2getDuree :   TrucgetDuree : PACKAGE2 : Person2.java
+  Person2getName : isAdult 
